@@ -2,16 +2,14 @@
 
 class Square
 {
-    private:
-        int mlength;
-        
     public:
-        Square(int mlength);
-        ~Square();
+        Square(int mlength); // Constructor
+        ~Square(); // Destructor
 
         void Plot_Corrd();
 
-    
+    private:
+        int mlength;
 };
 
 

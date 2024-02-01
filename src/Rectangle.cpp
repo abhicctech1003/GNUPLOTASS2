@@ -1,9 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <fstream>
-
 #include "../headers/Rectangle.h"
-
 using namespace std;
 using namespace Shapes_2D;
 
@@ -18,7 +16,7 @@ Rectangle::~Rectangle()
 
 }
 
-void Rectangle::Plot_Corrd()
+void Rectangle::Plot_Corrdinate()
 {
     ofstream myfile("textfile/Rectangle.txt");
 

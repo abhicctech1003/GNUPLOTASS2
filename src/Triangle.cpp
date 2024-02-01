@@ -1,8 +1,6 @@
 #include <iostream>
 #include <fstream>
-
 #include "../headers/Triangle.h"
-
 using namespace std;
 
 Triangle::Triangle(Point mVertex1, Point mVertex2, Point mVertex3)
@@ -12,7 +10,12 @@ Triangle::Triangle(Point mVertex1, Point mVertex2, Point mVertex3)
     this-> mVertex3 = mVertex3;
 }
 
-void Triangle::Plot_Corrd()
+Triangle::~Triangle()
+{
+    
+}
+
+void Triangle::Plot_Corrdinate()
 {
     ofstream myfile("textfile/Triangle.txt");
 
@@ -24,7 +27,3 @@ void Triangle::Plot_Corrd()
     myfile.close();
 }
 
-Triangle::~Triangle()
-{
-    
-}

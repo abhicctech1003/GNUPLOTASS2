@@ -4,18 +4,17 @@ namespace Shapes_2D
 {
     class Point
     {
-        private:
-            double mX;
-            double mY; 
-            
         public: 
-            Point();
+            Point(); // Constructor
             Point(double x, double y);
-            ~Point();
+            ~Point(); // Destructor
 
             double x();
             double y();
 
-           
+        private:
+            double mX;
+            double mY; 
+               
     };
 }

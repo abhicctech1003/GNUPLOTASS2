@@ -4,15 +4,14 @@
 
 class Line :public ParentClass_Shapes2D
 {
-     private:
+    public:
+        Line(Point d1 , Point d2); // Constructor
+        ~Line(); // Destructor
+ 
+    void Plot_Corrdinate();
+
+    private:
         Point d2;
         
-    public:
-        Line(Point d1 , Point d2);
-        ~Line();
- 
-    void Plot_Corrd();
-
-   
 };
 

@@ -1,14 +1,17 @@
 #include <iostream>
 #include<cmath>
 #include <fstream>
-
 #include "../headers/Square.h"
-
 using namespace std;
 
 Square::Square(int mlength) 
 {
      this->mlength=mlength;
+}
+
+Square::~Square()
+{
+    
 }
 
 void  Square::Plot_Corrd()
@@ -24,8 +27,5 @@ void  Square::Plot_Corrd()
         myfile.close();
 }
 
-Square::~Square()
-{
-    
-}
+
 

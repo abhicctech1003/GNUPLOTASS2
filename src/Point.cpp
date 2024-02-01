@@ -8,6 +8,11 @@ Point::Point()
     mY = 0.0;
 }
 
+Point::~Point()
+{
+
+}
+
 Point::Point(double x, double y)
 {
     mX = x;
@@ -24,7 +29,4 @@ double Point::y()
     return mY;
 }
 
-Point::~Point()
-{
 
-}

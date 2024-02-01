@@ -2,7 +2,6 @@
 #include <iostream>
 #include <fstream>
 #include<cmath>
-
 using namespace std;
 using namespace Shapes_2D;
 
@@ -12,7 +11,12 @@ Circle::Circle(Point o, double r)
     mRadius = r;
 }
 
-void Circle::Plot_Corrd()
+Circle::~Circle()
+{
+
+}
+
+void Circle::Plot_Corrdinate()
 {
     ofstream myFile("textfile/Circle.txt");
     int points = 100;
@@ -30,7 +34,4 @@ void Circle::Plot_Corrd()
     }
 }
 
-Circle::~Circle()
-{
 
-}

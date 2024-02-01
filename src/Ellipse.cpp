@@ -1,9 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <cmath>
-
 #include "../headers/Ellipse.h"
-
 using namespace std;
 
 Ellipse::Ellipse(Point o, Point mMajorRadius, Point mMinorRadius)
@@ -13,7 +11,12 @@ Ellipse::Ellipse(Point o, Point mMajorRadius, Point mMinorRadius)
     this->mMajorRadius = mMajorRadius;
 }
 
-void Ellipse::Plot_Corrd()
+Ellipse::~Ellipse()
+{
+    
+}
+
+void Ellipse::Plot_Corrdinate()
 {
     int points = 100;
     ofstream myFile("textfile/Ellipse.txt");
@@ -32,7 +35,4 @@ void Ellipse::Plot_Corrd()
     }
 }
 
-Ellipse::~Ellipse()
-{
-    
-}
+
