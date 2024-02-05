@@ -13,17 +13,20 @@ Point::~Point()
 
 }
 
+// Assigns x & y values
 Point::Point(double x, double y)
 {
     mX = x;
     mY = y;
 }
 
+// Returns x value
 double Point::x()
 {
     return mX;
 }
 
+// Returns y value
 double Point::y()
 {
     return mY;

@@ -14,6 +14,7 @@ Square::~Square()
     
 }
 
+// Stores the coordinates in Square.txt
 void  Square::Plot_Corrd()
 {
         ofstream myfile("textfile/Square.txt");

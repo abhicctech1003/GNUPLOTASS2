@@ -11,6 +11,7 @@ class Ellipse: public ParentClass_Shapes2D
         void Plot_Corrdinate();
 
     private:
+        // Member variables
         Point mMinorRadius;
         Point mMajorRadius;
 };

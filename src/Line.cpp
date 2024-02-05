@@ -15,6 +15,7 @@ Line::~Line()
 
 }
 
+// Writes the coordinates in Line.txt
 void Line::Plot_Corrdinate()
 {
     ofstream myFile("textfile/Line.txt");

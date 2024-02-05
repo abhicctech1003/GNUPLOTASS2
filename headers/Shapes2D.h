@@ -14,6 +14,7 @@ class ParentClass_Shapes2D
         }
 
     protected:
+        // Member variables
         Point mandatory;
 
 };

@@ -9,6 +9,7 @@ class Square
         void Plot_Corrd();
 
     private:
+        // Member variables
         int mlength;
 };
 

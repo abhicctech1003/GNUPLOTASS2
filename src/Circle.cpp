@@ -16,6 +16,7 @@ Circle::~Circle()
 
 }
 
+// Writes the coordinates in Circle.txt
 void Circle::Plot_Corrdinate()
 {
     ofstream myFile("textfile/Circle.txt");

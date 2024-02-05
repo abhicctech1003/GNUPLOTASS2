@@ -7,10 +7,12 @@ class Triangle : public ParentClass_Shapes2D
 {
     public:
         Triangle(Point mVertex1, Point mVertex2, Point mVertex3); // Constructor
+         ~Triangle(); // Destructor
+
         void Plot_Corrdinate();
-        ~Triangle(); // Destructor
 
     private:
+        // Member variabless
         float height;
         float base;
         float side1;

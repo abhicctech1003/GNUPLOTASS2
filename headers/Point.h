@@ -6,13 +6,14 @@ namespace Shapes_2D
     {
         public: 
             Point(); // Constructor
-            Point(double x, double y);
             ~Point(); // Destructor
+            Point(double x, double y);
 
             double x();
             double y();
 
         private:
+            // Member variables
             double mX;
             double mY; 
                

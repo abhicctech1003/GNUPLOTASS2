@@ -8,9 +8,10 @@ class Line :public ParentClass_Shapes2D
         Line(Point d1 , Point d2); // Constructor
         ~Line(); // Destructor
  
-    void Plot_Corrdinate();
+        void Plot_Corrdinate();
 
     private:
+        // Member variables
         Point d2;
         
 };

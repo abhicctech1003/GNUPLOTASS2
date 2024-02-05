@@ -16,6 +16,7 @@ Ellipse::~Ellipse()
     
 }
 
+// Writes the coordinates in Ellipse.txt
 void Ellipse::Plot_Corrdinate()
 {
     int points = 100;

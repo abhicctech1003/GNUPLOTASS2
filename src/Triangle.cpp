@@ -15,6 +15,7 @@ Triangle::~Triangle()
     
 }
 
+// Stores the coordinates in Triangle.txt
 void Triangle::Plot_Corrdinate()
 {
     ofstream myfile("textfile/Triangle.txt");
