@@ -6,7 +6,7 @@ class ParentClass_Shapes2D
 {
     public:
 
-        virtual void Plot_Corrdinate() = 0;
+        virtual void plotCorrdinate() = 0;
 
         ParentClass_Shapes2D()
         {

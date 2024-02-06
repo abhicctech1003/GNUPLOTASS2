@@ -8,7 +8,7 @@ class Ellipse: public ParentClass_Shapes2D
         Ellipse(Point o, Point MajorRadius, Point MinorRadius); // Constructor
         ~Ellipse(); // Destructor
         
-        void Plot_Corrdinate();
+        void plotCorrdinate();
 
     private:
         // Member variables

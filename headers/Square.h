@@ -3,14 +3,14 @@
 class Square
 {
     public:
-        Square(int mlength); // Constructor
+        Square(int mLength); // Constructor
         ~Square(); // Destructor
 
         void Plot_Corrd();
 
     private:
         // Member variables
-        int mlength;
+        int mLength;
 };
 
 

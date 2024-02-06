@@ -4,9 +4,9 @@
 #include "../headers/Square.h"
 using namespace std;
 
-Square::Square(int mlength) 
+Square::Square(int mLength) 
 {
-     this->mlength=mlength;
+     this->mLength=mLength;
 }
 
 Square::~Square()
@@ -14,15 +14,15 @@ Square::~Square()
     
 }
 
-// Stores the coordinates in Square.txt
+// Writes the coordinates in Square.txt
 void  Square::Plot_Corrd()
 {
         ofstream myfile("textfile/Square.txt");
 
         myfile << 0 << " " << 0 << endl;
-        myfile << mlength << " " << 0 << endl;
-        myfile << mlength << " " <<mlength << endl;
-        myfile << 0 << " " << mlength << endl;
+        myfile << mLength << " " << 0 << endl;
+        myfile << mLength << " " <<mLength << endl;
+        myfile << 0 << " " << mLength << endl;
         myfile << 0 << " " << 0 << endl;
 
         myfile.close();

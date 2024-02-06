@@ -41,7 +41,7 @@ int main()
 
             Line l1(d1,d2);
 
-            l1.Plot_Corrdinate();
+            l1.plotCorrdinate();
             cout<<endl;
             break;
             }
@@ -59,7 +59,7 @@ int main()
             Point d3(x3,y3);
            
            Triangle t1(d1,d2,d3); 
-           t1.Plot_Corrdinate();
+           t1.plotCorrdinate();
        
            break;
             }
@@ -91,7 +91,7 @@ int main()
             Point d2(x2,y2) ;
            
             Rectangle r1(d1,d2); 
-            r1.Plot_Corrdinate();
+            r1.plotCorrdinate();
              
             break;
             }
@@ -108,7 +108,7 @@ int main()
 
             Circle c1(d1,radius);
 
-            c1.Plot_Corrdinate();
+            c1.plotCorrdinate();
             break;
             }
 
@@ -126,7 +126,7 @@ int main()
 
             Ellipse e1(d1,d2,d3);
 
-            e1.Plot_Corrdinate();
+            e1.plotCorrdinate();
 
             cout<<endl;
             break;

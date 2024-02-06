@@ -17,7 +17,7 @@ Ellipse::~Ellipse()
 }
 
 // Writes the coordinates in Ellipse.txt
-void Ellipse::Plot_Corrdinate()
+void Ellipse::plotCorrdinate()
 {
     int points = 100;
     ofstream myFile("textfile/Ellipse.txt");

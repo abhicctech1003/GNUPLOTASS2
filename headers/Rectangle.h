@@ -9,7 +9,7 @@ class Rectangle : public ParentClass_Shapes2D
         Rectangle(Point d1, Point d2); // Constructor
         ~Rectangle(); // Destructor
         
-        void Plot_Corrdinate();
+        void plotCorrdinate();
 
     private:
         // Member variables

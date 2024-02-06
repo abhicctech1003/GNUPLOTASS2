@@ -17,7 +17,7 @@ Rectangle::~Rectangle()
 }
 
 // Writes the coordinates in Rectangle.txt
-void Rectangle::Plot_Corrdinate()
+void Rectangle::plotCorrdinate()
 {
     ofstream myfile("textfile/Rectangle.txt");
 

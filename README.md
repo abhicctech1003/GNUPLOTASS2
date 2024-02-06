@@ -1,6 +1,22 @@
 # GNU Plot Assigment
 This C++ project is designed to get X & Y coordinates of various shapes to plot geometry on gnuplot. The project follows a modular structure with separate header (.h) and implementation (.cpp) files for each class.
 
+## Getting Started
+
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/abhicctech1003/GNUPLOTASS2.git
+    ```
+
+2. **Build the Project:**
+
+    Open the project in your preferred C++ IDE or build using the command line.
+
+3. **Run the Application:**
+
+    Execute the built binary to run the application.
+
 ## Folder Structure
 The project is organized into the following folders:
 
@@ -11,9 +27,10 @@ The project is organized into the following folders:
 - **textfile**: Text files for each shape created.
  
 - **main.cpp**: Main source file where the program execution starts.
+
 ## 1. Line
  
-- Header: include/Line.h
+- Header: include/Line.h 
  
 - Implementation: src/Line.cpp
  

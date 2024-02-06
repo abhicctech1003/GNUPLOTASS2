@@ -6,17 +6,17 @@ using namespace Shapes_2D;
 class Triangle : public ParentClass_Shapes2D
 {
     public:
-        Triangle(Point mVertex1, Point mVertex2, Point mVertex3); // Constructor
+        Triangle(Point inVertex1, Point inVertex2, Point inVertex3); // Constructor
          ~Triangle(); // Destructor
 
-        void Plot_Corrdinate();
+        void plotCorrdinate();
 
     private:
         // Member variabless
-        float height;
-        float base;
-        float side1;
-        float side2;
+        float mHeight;
+        float mBase;
+        float mSide1;
+        float mSide2;
 
         Point mVertex2;
         Point mVertex3;

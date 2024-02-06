@@ -9,7 +9,7 @@ class Circle :public ParentClass_Shapes2D
         Circle(Point o, double r); // Constructor
         ~Circle(); // Destructor
 
-        void Plot_Corrdinate();
+        void plotCorrdinate();
 
     private:
         // Member variables

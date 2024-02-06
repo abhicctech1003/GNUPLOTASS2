@@ -3,11 +3,11 @@
 #include "../headers/Triangle.h"
 using namespace std;
 
-Triangle::Triangle(Point mVertex1, Point mVertex2, Point mVertex3)
+Triangle::Triangle(Point inVertex1, Point inVertex2, Point inVertex3)
 {
-    mandatory = mVertex1;
-    this-> mVertex2 = mVertex2;
-    this-> mVertex3 = mVertex3;
+    mandatory = inVertex1;
+    this-> mVertex2 = inVertex2;
+    this-> mVertex3 = inVertex3;
 }
 
 Triangle::~Triangle()
@@ -15,8 +15,8 @@ Triangle::~Triangle()
     
 }
 
-// Stores the coordinates in Triangle.txt
-void Triangle::Plot_Corrdinate()
+// Writes the coordinates in Triangle.txt
+void Triangle::plotCorrdinate()
 {
     ofstream myfile("textfile/Triangle.txt");
 
